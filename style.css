@@ -48,6 +48,14 @@ body {
     color: white;
 }
 
+.title {
+    font-size: 40px;
+}
+
+.title2 {
+    margin-bottom: 8px;
+}
+
 /* header styles */
 header {
     padding-top: 15px !important;
@@ -93,4 +101,31 @@ header {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+
+/* Pillars of "Bangladesh 2.0" section styles here */
+.pillarsMain {
+    margin-top: 80px;
+}
+
+.pillarsCardMain {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.pillarsCard {
+    height: 200px;
+    width: 302px;
+    border: 2px solid #0e0e0e10;
+    border-radius: 16px;
+    padding: 24px;
+
+}
+
+.pillarsCard p {
+    color: #0e0e0e96;
+    font-size: 20px;
+    margin-top: 0;
 }
