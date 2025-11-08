@@ -1,7 +1,47 @@
+/* common styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Fira Sans", sans-serif;
+}
+
 body {
     box-sizing: border-box;
+    margin: 0;
+
 }
 
 .container {
     padding: 0px 120px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #006A50;
+    color: #006A50;
+}
+
+/* header styles */
+header {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.11);
+}
+
+#brandLogo {
+    width: 200px;
 }
